@@ -1,2 +1,2 @@
-# Make-In-Bharat.github.io
+# makeinbharat.github.io
 The official web page for our company.
