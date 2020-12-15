@@ -40,6 +40,15 @@ body{
         height: 100vh;
         margin: 0;
         padding: 100px;
+
+        .content{
+            padding-top: 60px;
+            width: 70%;
+            display: block;
+            margin: auto;
+            text-align: justify;
+            font-size: 20px;
+        }
     }
 }
 

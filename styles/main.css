@@ -47,6 +47,15 @@ body .full_padder {
   padding: 100px;
 }
 
+body .full_padder .content {
+  padding-top: 60px;
+  width: 70%;
+  display: block;
+  margin: auto;
+  text-align: justify;
+  font-size: 20px;
+}
+
 * {
   font-family: "Halant";
 }
