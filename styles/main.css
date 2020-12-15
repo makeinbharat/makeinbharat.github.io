@@ -1,0 +1,53 @@
+body {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  min-height: 100vh;
+  margin: 0;
+  background: #fcfcfa;
+}
+
+body::-webkit-scrollbar {
+  border-radius: 7px;
+  display: none;
+  height: 22px;
+  background: #5e5e5e;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  background: #de1738;
+}
+
+body .hero_bg {
+  margin: 0;
+  height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff9933), color-stop(white), color-stop(white), to(#138808));
+  background: linear-gradient(#ff9933, white, white, #138808);
+}
+
+body .hero_bg .vert_mid {
+  position: relative;
+  top: 32vh;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+body .hero_bg span.vert_mid {
+  font-size: 12vh;
+  background: #0065afaa;
+  color: #fcfcfc;
+  padding: 10px 50px;
+  width: 60%;
+}
+
+body .full_padder {
+  height: 100vh;
+  margin: 0;
+  padding: 100px;
+}
+
+* {
+  font-family: "Halant";
+}
+/*# sourceMappingURL=main.css.map */

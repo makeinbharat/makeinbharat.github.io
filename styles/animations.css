@@ -1,0 +1,17 @@
+.hero_bg{
+    animation: wave 30s infinite forwards;
+}
+
+@keyframes wave{
+    0%{transform: scale(1.0);}
+    10%{transform: rotateX(10deg) scale(1.02);}
+    20%{transform: rotateX(0deg) scale(1.0);}
+    30%{transform: rotateX(10deg) scale(1.02);}
+    40%{transform: rotateX(0deg) scale(1.0);}
+    50%{transform: rotateX(10deg) scale(1.02);}
+    60%{transform: rotateX(0deg) scale(1.0);}
+    70%{transform: rotateX(10deg) scale(1.02);}
+    80%{transform: rotateX(0deg) scale(1.0);}
+    90%{transform: rotateX(10deg) scale(1.02);}
+    100%{transform: rotateX(0deg) scale(1.0);}
+}

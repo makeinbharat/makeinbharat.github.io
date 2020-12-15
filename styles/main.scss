@@ -1,0 +1,49 @@
+body{
+    box-sizing: content-box;
+    min-height: 100vh;
+    margin: 0;
+    background: #fcfcfa;
+
+    &::-webkit-scrollbar{
+        border-radius: 7px;
+        display: none;
+        height: 22px;
+        background: #5e5e5e;
+    }
+    &::-webkit-scrollbar-thumb {
+        border-radius: 7px;
+        background: #de1738;
+    }
+
+    .hero_bg{
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(#ff9933, white, white, #138808);
+
+        .vert_mid{
+            position: relative;
+            top: 32vh;
+            width: 70%;
+            display: block;
+            margin: auto;
+        }
+        span.vert_mid{
+            font-size: 12vh;
+            background: #0065afaa;
+            color: #fcfcfc;
+            padding: 10px 50px;
+            width: 60%;
+        }
+    }
+
+    .full_padder{
+        height: 100vh;
+        margin: 0;
+        padding: 100px;
+    }
+}
+
+
+*{
+    font-family: "Halant";
+}
