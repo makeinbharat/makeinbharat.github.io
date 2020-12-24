@@ -15,3 +15,8 @@
     90%{transform: rotateX(10deg) scale(1.02);}
     100%{transform: rotateX(0deg) scale(1.0);}
 }
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
